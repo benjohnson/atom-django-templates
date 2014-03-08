@@ -1,6 +1,6 @@
 {
   "name": "django-templates",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Atom support for Django templates.",
   "license": "MIT",
   "engines": {
@@ -10,7 +10,6 @@
     "type": "git",
     "url": "https://github.com/benjohnson/atom-django-templates"
   },
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/benjohnson/atom-django-templates/issues"
   }
