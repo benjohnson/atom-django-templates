@@ -2,7 +2,7 @@
   "name": "django-templates",
   "version": "0.0.0",
   "description": "Atom support for Django templates.",
-  "repository": "https://github.com/atom/django-templates",
+  "repository": "https://github.com/benjohnson/atom-django-templates",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
