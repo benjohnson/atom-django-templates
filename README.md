@@ -4,5 +4,6 @@ Atom support for Django HTML templates. Originally forked from [python-django-te
 
 ## Release Notes
 
-0.2.0 Fixed a bug causing the removal of comments to slice away closing `>`.
-0.1.0: Initial release.
+* 0.2.0 Fixed a bug causing the removal of comments to slice away closing `>`.
+* 0.1.0: Initial release.
+
