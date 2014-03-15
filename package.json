@@ -3,6 +3,7 @@
   "version": "0.2.0",
   "description": "Atom support for Django templates.",
   "license": "MIT",
+  "main": "django-templates.coffee",
   "engines": {
     "atom": ">0.50.0"
   },
