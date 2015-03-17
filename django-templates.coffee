@@ -25,15 +25,14 @@ class DjangoTemplates
     return setting
 
   watchEditors: ->
-    editorView = atom.workspaceView.eachEditorView (editorView) =>
+    atom.workspace.observeTextEditors (editor) =>
       return unless @pathSetting
-      editor = editorView.getEditor()
       path = editor.getPath()
       if path
         matches = path.indexOf(@pathSetting) isnt -1
         matchesHtml = path.indexOf('.html') isnt -1
         if matches and matchesHtml
-          grammar = atom.syntax.grammarsByScopeName['text.html.django']
+          grammar = atom.grammars.grammarsByScopeName['text.html.django']
           editor.setGrammar(grammar)
 
 module.exports = new DjangoTemplates
