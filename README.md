@@ -10,6 +10,7 @@ It's common for Django templates to have a `.html` extension. Unfortunately, thi
 
 ## Release Notes
 
+* 0.4.0: Allow multiple path fragments (thanks MetaMemoryT!). Fix deprecation errors (thanks djch!)
 * 0.3.0: Added an optional setting to activate the Django Template grammar based on file path.
 * 0.2.0: Fixed a bug causing the removal of comments to slice away closing `>`.
 * 0.1.0: Initial release.
