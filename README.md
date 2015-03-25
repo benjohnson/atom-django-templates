@@ -13,7 +13,7 @@ Out of the box, Emmet isn't aware of the Django HTML Templates grammar, so Djang
 ``` cson
 # language-specific Tab triggers
 # you can add more triggers by changing `grammar` attribute valuse
-'[...], atom-text-editor[data-grammar~="text html django"]:not([mini])':
+'[...], atom-text-editor[data-grammar="text html django"]:not([mini])':
 ```
 
 ## Release Notes
