@@ -7,6 +7,14 @@ It's common for Django templates to have a `.html` extension. Unfortunately, thi
 
 ![Settings Example](https://f.cloud.github.com/assets/69549/2429497/3fd16d50-ac86-11e3-9b78-7c2bc051212c.png)
 
+## Emmet Integration
+Out of the box, Emmet isn't aware of the Django HTML Templates grammar, so Django HTML Templates uses Atom's tab-based HTML autocompletion rather than Emmet's. As the [Emmet-Atom Readme](https://github.com/emmetio/emmet-atom) explains, this is an easy fix. All you have to do is add Django Templates to the the list of grammars in Emmet's `keymaps/emmet.cson` file:
+
+``` cson
+# language-specific Tab triggers
+# you can add more triggers by changing `grammar` attribute valuse
+'[...], atom-text-editor[data-grammar="text html django"]:not([mini])':
+```
 
 ## Release Notes
 
