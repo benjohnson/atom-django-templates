@@ -18,6 +18,7 @@ Out of the box, Emmet isn't aware of the Django HTML Templates grammar, so Djang
 
 ## Release Notes
 
+* 0.5.0: Fix scoped-properties deprecation (thanks djch!). Add elif and with keywords (thanks batisteo!)
 * 0.4.0: Allow multiple path fragments (thanks MetaMemoryT!). Fix deprecation errors (thanks djch!)
 * 0.3.0: Added an optional setting to activate the Django Template grammar based on file path.
 * 0.2.0: Fixed a bug causing the removal of comments to slice away closing `>`.
