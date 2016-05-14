@@ -20,7 +20,7 @@ class DjangoTemplates
         if path.indexOf('.html') isnt -1
           matches = false
           for frag in atom.config.get @configKey
-            if path.indexOf(frag)
+            if path.indexOf(frag) isnt -1
               matches = true
               break
           if matches

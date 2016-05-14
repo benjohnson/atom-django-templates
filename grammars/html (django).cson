@@ -1,5 +1,4 @@
 'fileTypes': [
-  'html'
   'html.django'
 ]
 'name': 'HTML (Django)'
