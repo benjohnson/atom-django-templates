@@ -11,8 +11,8 @@
   'comment':
     'prefix': 'comment'
     'body': '{% comment %}\n\t$1\n{% endcomment %}'
-  'var':
-    'prefix': 'var'
+  'variable':
+    'prefix': 'variable'
     'body': '{{ $1 }}'
   'csrf':
     'prefix': 'csrf',
